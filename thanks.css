@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.general {
+  background-color: hsl(216, 12%, 8%);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.general .container {
+  padding: 30px;
+  width: 400px;
+  height: 370px;
+  border-radius: 20px;
+  background-color: hsl(213, 19%, 18%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.general .container .score-text {
+  background-color: hsl(219, 12%, 27%);
+  padding: 5px 15px;
+  color: hsl(25, 97%, 53%);
+  border-radius: 15px;
+}
+.general .container .thanks-text {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  justify-content: center;
+  align-items: center;
+}
+.general .container .thanks-text h2 {
+  color: white;
+}
+.general .container .thanks-text p {
+  color: hsl(217, 12%, 63%);
+  width: 90%;
+  text-align: center;
+}/*# sourceMappingURL=thanks.css.map */
